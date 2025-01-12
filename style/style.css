@@ -84,6 +84,11 @@ nav ul li a{
   font-size: 15px;
   font-weight: 600;
   cursor: pointer;
+  transition: .85s;
+}
+.btn-hero:hover{
+  background-color: chocolate;
+  color: #0E0E0E;
 }
 
 /* Pillar section */
@@ -179,6 +184,25 @@ nav ul li a{
   border-radius: 8px;
   border: none;
   cursor: pointer;
+  transition: .85s;
+}
+.btn-vision1:hover{
+  background-color: #82184f;
+  color: #FFFFFF;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.btn-vision2:hover{
+  background-color: #1e53c5;
+  color: #FFFFFF;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.btn-vision3:hover{
+  background-color: #61b36d;
+  color: #0E0E0E;
+  text-decoration: underline;
+  font-weight: bold;
 }
 .btn-vision1{
   background-color: rgba(84, 144, 245, 1);
@@ -272,6 +296,10 @@ nav ul li a{
   cursor: pointer;
   font-size: 15px;
   font-weight: 600;
+  transition: .85s;
+}
+.btn-news:hover{
+  background-color: rgb(67, 21, 121);
 }
 .news-image{
   margin: 40px 27px 40px 40px;
@@ -336,15 +364,58 @@ nav ul li a{
   cursor: pointer;
   font-size: 15px;
   font-weight: 600;
+  transition: .85s;
 }
 .btn-done:hover{
-  background-color: rgb(0, 4, 255);
+  background-color: red;
+  color: #000000;
 }
-.btn-hero:hover{
-  background-color: blanchedalmond;
-  color: #0E0E0E;
+
+/* Footer */
+footer{
+  background-color: #C6E4D6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 68px 0;
+  border-radius: 24px;
+  margin: 68px 136px;
 }
-.btn-news:hover{
-  background-color: rgb(81, 74, 148);
+footer h1{
+  font-size: 34px;
+  font-weight: bold;
   color: #0E0E0E;
+  margin-bottom: 11px;
+}
+footer p{
+  font-size: 13px;
+  color: rgba(14, 14, 14, .7);
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+.input-contain{
+  display: flex;
+  margin-bottom: 20px;
+}
+.input-contain > input{
+  width: 510px;
+  padding: 15px 0 15px 34px;
+  color: rgba(14, 14, 14, .3);
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+.input-contain > button{
+  padding: 16px 28px;
+  color: #FFFFFF;
+  background-color: #006A50;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  transition:.85s;
+}
+.input-contain > button:hover{
+  background-color: blue;
+  color: #82184f;
 }
