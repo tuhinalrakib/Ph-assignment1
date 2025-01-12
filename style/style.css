@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fira-sans-normal {
+  font-family: "Fira Sans", serif;
+  /* font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100; */
+}
+
+/* Share Class */
+.max-width{
+  max-width: 80%;
+}
+.pillar-img{
+  margin: 20px 0 20px 20px
+}
+
+/* Nav Section */
+nav{
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 136px;
+  background-color: #F5F5F5;
+}
+nav ul h3{
+  font-size: 26px;
+  color: #0E0E0E;
+}
+
+nav ul li{
+  list-style: none;  
+}
+nav ul li a{
+  text-decoration: none;
+}
+.btn-primary{
+  padding: 12px 25px;
+  border-radius: 8px;
+  border: 2px solid #006A50;
+  color: #006A50;
+  background-color: #F5F5F5;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero{
+  margin: 20px 136px 0px 136px;
+  height: 476px;
+  display: flex;
+  align-items: center;
+  gap: 54px;
+  background-color: #C6E4D6;
+  border-radius: 20px;
+  padding: 68px 50px;
+}
+.hero-title{
+  color: rgba(14, 14, 14, 50%);
+  font-size: 20px;
+  font-weight: 600px;
+  margin-bottom: 13px;
+}
+.hero-subtitle{
+  font-size: 47px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.btn-hero{
+  background-color: #006A50;
+  border-radius: 7px;
+  border: none;
+  color: #FFFFFF;
+  padding: 14px 28px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Pillar section */
+.pillar-container{
+  margin: 68px 136px;
+}
+.pillar-container-title{
+  color: rgba(14, 14, 14, 1);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0,.25);
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 26px;
+}
+.pillars{
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
+.pillar{
+  width: 256px;
+  height: 206px;
+  background-color: rgba(255 , 255 , 255 , 100%);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
+  border-radius: 13px;
+}
+
+.pillar-title{
+  margin: 0px 20px 10px 20px;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, 80%);
+}
+.pillar-subtitle{
+  margin: 0px 20px 20px 20px;
+  color: rgba(14, 14, 14, 70%);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+/* Vision Section */
+.vision-container{
+  margin: 0px 136px;
+}
+.vision-container-title{
+  color: rgba(14, 14, 14, 1);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0,.25);
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.vision-container-description{
+  font-size: 13px;
+  color: rgba(14, 14, 14, .7);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0,.25);
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 27px;
+}
+.visions{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.vision1,.vision2,.vision3{
+  border-radius: 16px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+}
+.vision1{
+  background-color: rgba(84, 144, 245, .2);
+  
+}
+.vision2{
+  background-color: rgba(198 , 228, 214, 1);
+}
+.vision3{
+  background-color: rgba(247 , 235, 207, 1);
+}
+.vision-title{
+  font-size: 17px;
+  font-weight: bold;
+  color: rgba(14,14,14,.8);
+  margin: 0 27px 10px 27px;
+}
+.vision-description{
+  font-size: 13px;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 0 27px 20px 27px;
+  font-weight: 400px;
+}
+.btn-vision1,.btn-vision2,.btn-vision3{
+  margin: 0 0 27px 27px;
+  padding: 10px 17px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+.btn-vision1{
+  background-color: rgba(84, 144, 245, 1);
+}
+.btn-vision2{
+  background-color: rgba(9, 161, 92, 1);
+}
+.btn-vision3{
+  background-color: rgba(255, 194, 57, 1);
+}
+.vision-comment{
+  background-image: url("../B11A1--assignment-1/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
+  margin-top: 27px;
+  border-radius: 16px;
+}
+.comments-description{
+  font-size: 13px;
+  line-height: 20px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, .8);
+  margin-bottom: 10px;
+}
+.comment-owner{
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 3px;
+  line-height: 20px;
+  color: rgba(14, 14, 14, .8);
+}
+.comment-owner-designation{
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, .6);
+  margin-top: 2px;
+}
