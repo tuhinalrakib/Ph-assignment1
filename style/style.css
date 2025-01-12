@@ -20,6 +20,10 @@
 .pillar-img{
   margin: 20px 0 20px 20px
 }
+.box-shadow{
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
+}
+
 
 /* Nav Section */
 nav{
@@ -79,6 +83,7 @@ nav ul li a{
   padding: 14px 28px;
   font-size: 15px;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* Pillar section */
@@ -101,7 +106,7 @@ nav ul li a{
   width: 256px;
   height: 206px;
   background-color: rgba(255 , 255 , 255 , 100%);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 25%);
+  border: 1px solid #F1F1F3;
   border-radius: 13px;
 }
 
@@ -145,7 +150,6 @@ nav ul li a{
 }
 .vision1,.vision2,.vision3{
   border-radius: 16px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
 }
 .vision1{
   background-color: rgba(84, 144, 245, .2);
@@ -189,9 +193,9 @@ nav ul li a{
   background-image: url("../assets/quote-bg.png");
   background-repeat: no-repeat;
   padding: 40px 20px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, .25);
   margin-top: 27px;
   border-radius: 16px;
+  border: 1px solid #F1F1F3;
 }
 .comments-description{
   font-size: 13px;
@@ -212,4 +216,135 @@ nav ul li a{
   font-weight: 400;
   color: rgba(14, 14, 14, .6);
   margin-top: 2px;
+}
+
+/* Recent News */
+.recent-news{
+  margin: 68px 136px;
+}
+.recent-news-title{
+  font-size: 34px;
+  font-weight: bold;
+  color: #0E0E0E;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0,.25);
+  margin-bottom: 20px;
+}
+.recent-news-subtitle{
+  font-size: 13px;
+  color: #0E0E0E;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0,.25);
+  line-height: 20px;
+  margin-bottom: 27px;
+}
+.news-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.news{
+  display: flex;
+  border: 1px solid #F1F1F3;
+  justify-content: center;
+  gap: 27px;
+  border-radius: 20px;
+}
+.news-description > h1{
+  font-size: 27px;
+  font-weight: bold;
+  color: rgba(14, 14, 14, .8);
+}
+
+.news-description > img, h1,p{
+  margin-bottom: 10px;
+}
+.date,.details{
+  font-size: 13px;
+  color: rgba(14, 14, 14, .7);
+  line-height: 20px;
+}
+.btn-news{
+  margin: 27px 0 47px 0;
+  padding: 11px 22px;
+  border-radius: 8px;
+  border: none;
+  background-color: #006A50;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+.news-image{
+  margin: 40px 27px 40px 40px;
+}
+.news-description{
+  margin: 47px 40px 47px 0;
+}
+
+/* Donate Section */
+.donate{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 68px 136px;
+}
+.donate-title{
+  font-size: 34px;
+  font-weight: bold;
+  color: #0E0E0E;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0,.25);
+}
+.donate-subtitle{
+  font-size: 13px;
+  color: rgba(14, 14, 14, .7);
+  line-height: 20px;
+  margin-bottom: 27px;
+}
+
+.amounts{
+  display: flex;
+  gap: 20px;
+}
+.amount{
+  border:1px solid rgba(14, 14, 14, .15);
+  border-radius: 16px;
+  padding: 34px;
+  cursor: pointer;
+  margin-bottom: 27px;
+}
+.amount> h1{
+  font-size: 34px;
+  color: rgba(14, 14, 14, .8);
+}
+.amount:hover{
+  background-color: #C6E4D6;
+}
+.donate > input{
+  color: rgba(14, 14, 14, .3);
+  width: 80%;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 17px;
+  border: 1px solid  rgba(14, 14, 14, .15);
+  margin-bottom: 27px;
+}
+.btn-done{
+  padding: 14px 28px;
+  border-radius: 8px;
+  border: none;
+  background-color: #006A50;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+.btn-done:hover{
+  background-color: rgb(0, 4, 255);
+}
+.btn-hero:hover{
+  background-color: blanchedalmond;
+  color: #0E0E0E;
+}
+.btn-news:hover{
+  background-color: rgb(81, 74, 148);
+  color: #0E0E0E;
 }
